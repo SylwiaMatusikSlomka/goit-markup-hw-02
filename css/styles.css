@@ -1,0 +1,96 @@
+:root {
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --navy-blue: #2E2F42;
+    --green: #31D0AA;
+    --slate: #434455;
+    --light-slate: #8E8F99;
+    --cornflower: #E7E9FC;
+    --cloud: #F4F4FD;
+    --navy-blue-modal: #2E2F42;
+    --grey: #2E2F42;
+    --white: #FFFFFF;
+    --dairy: #FCFCFC;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--navy-blue);
+    text-decoration: none;
+}
+
+.a {
+    text-decoration: none;
+}
+
+h1 {
+    background: var(--navy-blue);
+    color: #FFFFFF;
+    text-align: center;
+}
+
+section {
+    color: var(--slate);
+}
+
+.footer>a>span {
+    color: var(--cloud);
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.bluestudio {
+    color: var(--iris);
+}
+
+.nav>ul>li>a {
+    color: var(--iris);
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0, 06em;
+}
+
+.our-team {
+    background: var(--cloud);
+    margin: 0%;
+}
+
+.main-button {
+    background-color: var(--iris);
+    color: #FFFFFF
+}
+
+.pointer {
+    cursor: pointer;
+    background-color: var(--cornflower);
+    color: var(--iris);
+}
+
+.pointer:active {
+    background: var(--ocean);
+}
+
+a:focus {
+    color: var(--blue-text);
+}
+
+a:active {
+    background-color: var(--blue-text);
+}
+
+footer {
+    background-color: var(--navy-blue);
+    color: var(--cloud);
+}
+
+.span {
+    color: var(--slate);
+}
