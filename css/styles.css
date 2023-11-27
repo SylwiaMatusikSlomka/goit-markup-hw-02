@@ -29,14 +29,11 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-}
-
-.link {
-    font-family: 'Raleway'sans-serif;
     text-decoration: none;
 }
 
 .logo-studio-base {
+    font-family: 'Raleway'sans-serif;
     color: var(--navy-blue);
 }
 
