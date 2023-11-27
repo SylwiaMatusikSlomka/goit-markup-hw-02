@@ -11,26 +11,71 @@
     --grey: #2E2F42;
     --white: #FFFFFF;
     --dairy: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: var(--navy-blue);
+    color: var(--slate);
     text-decoration: none;
+    background-color: var(--white);
+}
+
+body>header>a>.logo {
+    background-color: var(--navy-blue);
+    color: var(--iris);
+    font-family: 'Raleway'sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0, 03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+body>header>a>span {
+    color: var(--grey);
 }
 
 .a {
     text-decoration: none;
 }
 
-h1 {
-    background: var(--navy-blue);
-    color: #FFFFFF;
-    text-align: center;
+.menu {
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.02em;
+    color: var(--navy-blue);
 }
 
-section {
-    color: var(--slate);
+.menu .link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+}
+
+.menu .link:hover {
+    color: var(--ocean)
+}
+
+address {
+    font-style: normal;
+}
+
+.section {
+    color: var(--grey);
+}
+
+.heading {
+    background: var(--navy-blue);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
 
 .footer>a>span {
@@ -87,6 +132,22 @@ a:active {
 
 footer {
     background-color: var(--navy-blue);
+    color: var(--cloud);
+}
+
+footer>a {
+    background-color: var(--navy-blue);
+    color: var(--iris);
+    font-family: 'Raleway'sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0, 03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+footer>a>span {
     color: var(--cloud);
 }
 
