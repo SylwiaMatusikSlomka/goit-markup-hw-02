@@ -31,6 +31,11 @@ body {
     text-transform: uppercase;
 }
 
+.link {
+    font-family: 'Raleway'sans-serif;
+    text-decoration: none;
+}
+
 .logo-studio-base {
     color: var(--navy-blue);
 }
@@ -39,7 +44,7 @@ body {
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: grey;
+    color: var(--navy-blue);
 }
 
 .nav-link :hover {
@@ -50,123 +55,12 @@ body {
     color: var(--ocean)
 }
 
-.a {
-    text-decoration: none;
-}
-
-.list {
+.base-address a {
     list-style: none;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
     line-height: 1.5;
     color: var(--slate);
-}
-
-.menu .link {
     text-decoration: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-}
-
-.menu .link:hover {
-    color: var(--ocean)
-}
-
-address {
-    font-style: normal;
-}
-
-.link:hover {
-    color: var(--ocean);
-    text-decoration: none;
-}
-
-.link:focus {
-    color: var(--ocean)
-}
-
-.section {
-    color: var(--grey);
-}
-
-.heading {
-    background: var(--navy-blue);
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #FFFFFF;
-}
-
-.footer>a>span {
-    color: var(--cloud);
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
-
-.bluestudio {
-    color: var(--iris);
-}
-
-.nav>ul>li>a {
-    color: var(--iris);
-}
-
-h3 {
-    font-style: normal;
-    font-weight: 700;
-    line-height: 2;
-}
-
-.our-team {
-    background: var(--cloud);
-    margin: 0%;
-}
-
-.main-button {
-    background-color: var(--iris);
-    color: #FFFFFF
-}
-
-.pointer {
-    cursor: pointer;
-    background-color: var(--cornflower);
-    color: var(--iris);
-}
-
-.pointer:active {
-    background: var(--ocean);
-}
-
-a:focus {
-    color: var(--blue-text);
-}
-
-a:active {
-    background-color: var(--blue-text);
-}
-
-.footer {
-    background-color: var(--navy-blue);
-    color: var(--cloud);
-}
-
-.logo-studio {
-    color: var(--cloud);
-    font-family: 'ralaway' sans-serif;
-    letter-spacing: 0, 03em;
-}
-
-.span {
-    color: var(--slate);
-    background-color: #FFFFFF;
 }
