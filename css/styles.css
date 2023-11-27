@@ -20,14 +20,14 @@ body {
     background-color: var(--white);
 }
 
-body>header>a>.logo {
-    background-color: var(--navy-blue);
+.logo {
+    background-color: var(--cornflower);
     color: var(--iris);
     font-family: 'Raleway'sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0, 03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -40,7 +40,7 @@ body>header>a>span {
     text-decoration: none;
 }
 
-.menu {
+.list {
     list-style: none;
     font-weight: 500;
     font-size: 16px;
@@ -130,27 +130,18 @@ a:active {
     background-color: var(--blue-text);
 }
 
-footer {
+.footer {
     background-color: var(--navy-blue);
     color: var(--cloud);
 }
 
-footer>a {
-    background-color: var(--navy-blue);
-    color: var(--iris);
-    font-family: 'Raleway'sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
+.logo-studio {
+    color: var(--cloud);
+    font-family: 'ralaway' sans-serif;
     letter-spacing: 0, 03em;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-footer>a>span {
-    color: var(--cloud);
 }
 
 .span {
     color: var(--slate);
+    background-color: #FFFFFF;
 }
