@@ -11,10 +11,10 @@
     --grey: #2E2F42;
     --white: #FFFFFF;
     --dairy: #FCFCFC;
-    font-family: 'Roboto', sans-serif;
 }
 
 body {
+    font-family: 'Roboto', sans-serif;
     color: var(--slate);
     text-decoration: none;
     background-color: var(--white);
@@ -29,11 +29,25 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
 }
 
-body>header>a>span {
-    color: var(--grey);
+.logo-studio-base {
+    color: var(--navy-blue);
+}
+
+.nav-link {
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: grey;
+}
+
+.nav-link :hover {
+    color: var(--ocean);
+}
+
+.nav-link :active {
+    color: var(--ocean)
 }
 
 .a {
@@ -44,8 +58,10 @@ body>header>a>span {
     list-style: none;
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.02em;
+    letter-spacing: 0.02em;
     color: var(--navy-blue);
+    line-height: 1.5;
+    color: var(--slate);
 }
 
 .menu .link {
@@ -63,6 +79,15 @@ body>header>a>span {
 
 address {
     font-style: normal;
+}
+
+.link:hover {
+    color: var(--ocean);
+    text-decoration: none;
+}
+
+.link:focus {
+    color: var(--ocean)
 }
 
 .section {
