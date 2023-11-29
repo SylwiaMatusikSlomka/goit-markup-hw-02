@@ -35,6 +35,8 @@ body {
 .logo-studio-base {
     font-family: 'Raleway'sans-serif;
     color: var(--navy-blue);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .link {
