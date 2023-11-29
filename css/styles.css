@@ -184,14 +184,15 @@ body {
     background-color: var(--navy-blue);
 }
 
-.footer a {
+.footer-link {
     font-family: 'Raleway', sans-serif;
     color: var(--iris);
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .logo-studio {
@@ -199,12 +200,13 @@ body {
     color: var(--cloud);
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-.footer p {
+.footer-paragraph {
     color: var(--cloud);
     font-weight: 400;
     font-size: 16px;
