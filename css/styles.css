@@ -37,10 +37,13 @@ body {
     color: var(--navy-blue);
 }
 
-.nav-link {
+.link {
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.nav-link {
     color: var(--navy-blue);
 }
 
