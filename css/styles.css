@@ -143,6 +143,8 @@ body {
 .what-are-we-doing img {
     border: 1px solid var(--cornflower);
     color: var(--cornflower);
+    width: 360px;
+    height: 300px
 }
 
 .our-team {
@@ -212,4 +214,54 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+}
+
+
+/* Portfolio */
+
+.main-botton {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.pointer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: var(--iris);
+    background-color: var(--cornflower);
+}
+
+.pointer:active {}
+
+.pointer:focus {
+    color: var(--ocean);
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+.content {
+    list-style-type: none;
+}
+
+.content h3 {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.content p {
+    color: var(--slate);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
 }
