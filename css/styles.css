@@ -200,6 +200,10 @@ body {
     text-transform: uppercase;
 }
 
+.footer span {
+    color: var(--cloud);
+}
+
 .footer-paragraph {
     color: var(--cloud);
     font-weight: 400;
