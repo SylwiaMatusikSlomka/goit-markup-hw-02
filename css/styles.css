@@ -46,14 +46,11 @@ body {
     list-style-type: none;
 }
 
-.link {
+.nav-link {
+    color: var(--navy-blue);
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.nav-link {
-    color: var(--navy-blue);
 }
 
 .nav-link :hover {
@@ -186,18 +183,18 @@ body {
     background-color: var(--navy-blue);
 }
 
-.footer-link {
+.link {
     font-family: 'Raleway', sans-serif;
     color: var(--iris);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 21px;
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.logo-studio {
+.footer-link {
     font-family: 'Raleway', sans-serif;
     color: var(--cloud);
     font-weight: 800;
