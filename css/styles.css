@@ -141,7 +141,7 @@ body {
     text-align: left;
 }
 
-.what-are-we-doing h2 {
+.what-are-we-doing-heading {
     color: var(--navy-blue);
     font-weight: 700;
     font-size: 36px;
@@ -186,6 +186,8 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
+.employee-section-list {}
 
 .employee-section {
     background-color: var(--white);
