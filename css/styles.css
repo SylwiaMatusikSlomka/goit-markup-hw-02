@@ -30,7 +30,11 @@ body {
     list-style-type: none;
 }
 
-.logo-link {
+.link {
+    text-decoration: none;
+}
+
+.logo {
     font-family: 'Raleway', sans-serif;
     color: var(--iris);
     font-weight: 800;
@@ -41,16 +45,6 @@ body {
     text-transform: uppercase;
 }
 
-.link {
-    font-family: 'Raleway', sans-serif;
-    color: var(--navy-blue);
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
-
 
 /* .link>span {
     font-family: 'Raleway', sans-serif;
@@ -59,15 +53,8 @@ body {
     letter-spacing: 0.03em;
 } */
 
-.nav-link {
-    font-family: 'Raleway', sans-serif;
+.logo-span {
     color: var(--navy-blue);
-    text-decoration: none;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    font-weight: 800;
-    font-size: 18px;
-    text-transform: uppercase;
 }
 
 .link :hover {
