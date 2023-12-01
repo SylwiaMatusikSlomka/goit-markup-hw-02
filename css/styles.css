@@ -84,6 +84,25 @@ body {
     text-align: center;
 }
 
+.main-heading-button {
+    background-color: var(--iris);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.main-heading-button:hover {
+    color: var(--navy-blue);
+}
+
+.main-heading-button:active {
+    color: var(--navy-blue);
+}
+
 .footer {
     background-color: var(--navy-blue);
 }
