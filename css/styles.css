@@ -24,6 +24,10 @@ body {
     background-color: var(--white);
 }
 
+.list {
+    font-style: none;
+}
+
 .link {
     font-family: 'Raleway', sans-serif;
     color: var(--iris);
@@ -40,10 +44,6 @@ body {
     color: var(--navy-blue);
     line-height: 1.17;
     letter-spacing: 0.03em;
-}
-
-.list {
-    font-style: none;
 }
 
 
