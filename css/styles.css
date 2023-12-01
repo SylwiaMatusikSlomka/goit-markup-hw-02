@@ -99,7 +99,7 @@ body {
     background-color: var(--ocean);
 }
 
-.main-heading-button:active {
+.main-heading-button:focus {
     background-color: var(--ocean);
 }
 
