@@ -35,22 +35,40 @@ body {
     text-decoration: none;
 }
 
+.link:hover {
+    color: var(--ocean);
+}
+
+.link:focus {
+    color: var(--ocean);
+}
+
 .logo-header-span {
     color: var(--navy-blue);
 }
 
-.list {
-    list-style: none;
-}
 
-.list-link {
+/* .list {
+    list-style: none;
+} */
+
+
+/* .list-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     text-decoration: none;
-}
+} */
+
+
+/* .address{
+font-style: normal; */
+
+
+/* 
+} */
 
 .footer {
     background-color: var(--navy-blue);
