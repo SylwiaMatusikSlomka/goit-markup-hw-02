@@ -20,10 +20,6 @@ body {
     background-color: var(--white);
 }
 
-.footer {
-    background-color: var(--navy-blue);
-}
-
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -41,6 +37,23 @@ body {
 
 .logo-header-span {
     color: var(--navy-blue);
+}
+
+.list {
+    list-style: none;
+}
+
+.list-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-decoration: none;
+}
+
+.footer {
+    background-color: var(--navy-blue);
 }
 
 .logo-footer-span {
