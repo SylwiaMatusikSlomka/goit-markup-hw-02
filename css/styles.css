@@ -35,6 +35,8 @@ body {
     text-decoration: none;
 }
 
+.link {}
+
 .logo-span {
     color: var(--cloud);
 }
