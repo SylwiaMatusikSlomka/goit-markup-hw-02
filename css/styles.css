@@ -96,11 +96,11 @@ body {
 }
 
 .main-heading-button:hover {
-    color: var(--ocean);
+    background-color: var(--ocean);
 }
 
 .main-heading-button:active {
-    color: var(--ocean);
+    background-color: var(--ocean);
 }
 
 .footer {
