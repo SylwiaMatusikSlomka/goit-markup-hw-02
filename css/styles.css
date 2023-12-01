@@ -35,9 +35,15 @@ body {
     text-decoration: none;
 }
 
-.link {}
+.link {
+    text-decoration: none;
+}
 
-.logo-span {
+.logo-header-span {
+    color: var(--navy-blue);
+}
+
+.logo-footer-span {
     color: var(--cloud);
 }
 
