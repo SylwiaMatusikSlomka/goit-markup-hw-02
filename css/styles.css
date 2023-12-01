@@ -177,9 +177,9 @@ body {
 }
 
 .portfolio-filtr-button:hover {
-    color: var(--ocean);
+    background-color: var(--ocean);
 }
 
 .portfolio-filtr-button:focus {
-    color: var(--ocean);
+    background-color: var(--ocean);
 }
