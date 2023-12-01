@@ -24,21 +24,10 @@ body {
     background-color: var(--white);
 }
 
-.list {
+.list ul {
     font-style: none;
     list-style: none;
     list-style-type: none;
-}
-
-.link {
-    font-family: 'Raleway', sans-serif;
-    color: var(--navy-blue);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    text-transform: uppercase;
 }
 
 .logo-link {
@@ -50,6 +39,16 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.link {
+    font-family: 'Raleway', sans-serif;
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 
