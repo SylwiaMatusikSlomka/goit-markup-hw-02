@@ -121,6 +121,15 @@ body {
     text-align: left;
 }
 
+.what-are-we-doing-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue);
+}
+
 .footer {
     background-color: var(--navy-blue);
 }
