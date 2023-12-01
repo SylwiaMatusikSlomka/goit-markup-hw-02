@@ -26,6 +26,7 @@ body {
 
 .list {
     font-style: none;
+    list-style: none;
 }
 
 .link {
@@ -39,22 +40,32 @@ body {
     text-transform: uppercase;
 }
 
-.link>span {
+.logo {
+    font-family: 'Raleway', sans-serif;
+    color: var(--iris);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo>span {
     font-family: 'Raleway', sans-serif;
     color: var(--navy-blue);
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
-
-/* .nav-link {
+.nav-link {
     color: var(--navy-blue);
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 16px;
-} */
+}
 
 .link :hover {
     color: var(--ocean);
