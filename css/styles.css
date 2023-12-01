@@ -103,7 +103,8 @@ body {
     background-color: var(--ocean);
 }
 
-.advantages-header {
+.advantages-header,
+.our-team-list-item-header {
     color: var(--navy-blue);
     font-weight: 500;
     font-size: 20px;
@@ -112,7 +113,8 @@ body {
     text-align: left;
 }
 
-.advantages-paragrapf {
+.advantages-paragraph,
+.our-team-list-item-paragraph {
     color: var(--slate);
     font-weight: 400;
     font-size: 16px;
@@ -128,6 +130,23 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--navy-blue);
+}
+
+.our-team {
+    background-color: var(--cloud);
+}
+
+.our-team-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navy-blue)
+}
+
+.our-team-list-item {
+    background-color: var(--white);
 }
 
 .footer {
