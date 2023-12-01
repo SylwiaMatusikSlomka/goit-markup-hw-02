@@ -27,11 +27,12 @@ body {
 .list {
     font-style: none;
     list-style: none;
+    list-style-type: none;
 }
 
 .link {
     font-family: 'Raleway', sans-serif;
-    color: var(--iris);
+    color: var(--navy-blue);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -40,7 +41,7 @@ body {
     text-transform: uppercase;
 }
 
-.logo {
+.logo-link {
     font-family: 'Raleway', sans-serif;
     color: var(--iris);
     font-weight: 800;
@@ -51,20 +52,23 @@ body {
     text-transform: uppercase;
 }
 
-.logo>span {
+
+/* .link>span {
     font-family: 'Raleway', sans-serif;
     color: var(--navy-blue);
     line-height: 1.17;
     letter-spacing: 0.03em;
-}
+} */
 
 .nav-link {
+    font-family: 'Raleway', sans-serif;
     color: var(--navy-blue);
     text-decoration: none;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    font-weight: 800;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
 .link :hover {
