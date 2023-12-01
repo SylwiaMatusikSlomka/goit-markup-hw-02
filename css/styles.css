@@ -178,8 +178,10 @@ body {
 
 .portfolio-filtr-button:hover {
     background-color: var(--ocean);
+    color: var(--white);
 }
 
 .portfolio-filtr-button:focus {
     background-color: var(--ocean);
+    color: var(--white);
 }
