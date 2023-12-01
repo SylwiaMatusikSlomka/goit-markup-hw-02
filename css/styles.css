@@ -42,28 +42,25 @@ body {
     letter-spacing: 0.03em;
 }
 
-.nav ul {
-    list-style-type: none;
-}
-
 .list {
     font-style: none;
 }
 
-.nav-link {
+
+/* .nav-link {
     color: var(--navy-blue);
     text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 16px;
-}
+} */
 
-.nav-link :hover {
+.link :hover {
     color: var(--ocean);
 }
 
-.nav-link :active {
+.link :active {
     color: var(--ocean)
 }
 
